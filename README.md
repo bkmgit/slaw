@@ -33,13 +33,13 @@ The simplest way to use Slaw is via the commandline:
 
 ## Overview
 
-Slaw generates Acts in the [Akoma Ntoso](http://www.akomantoso.org) 2.0 XML
+Slaw generates Acts in the [Akoma Ntoso](https://www.oasis-open.org/standard/akn-v1-0/) XML
 standard for legislative documents. It first parses plain text using a grammar
 and then generates XML from the resulting syntax tree.
 
 Most by-laws in South Africa are available as PDF documents. You will therefore
 need to extract the text from the PDF first, using a tool like pdftotext.
-PDFs can product oddities (such as oddly wrapped lines) and Slaw has a number of
+PDFs can produce oddities (such as oddly wrapped lines) and Slaw has a number of
 rules-of-thumb for correcting these. These rules are based on South African
 by-laws and may not be suitable for all regions.
 
